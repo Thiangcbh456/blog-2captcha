@@ -20,7 +20,7 @@ header {
 }
 
 header h1 {
-    color: #ff6600; /* Cor laranja para destaque */
+    color: #32CD32; /* Cor verde limão para destaque */
 }
 
 nav {
@@ -38,7 +38,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ff6600;
+    background-color: #32CD32; /* Cor verde limão no hover */
     color: #121212;
 }
 
@@ -50,7 +50,7 @@ article {
 }
 
 h2, h3 {
-    color: #ff6600; /* Títulos em laranja */
+    color: #32CD32; /* Títulos em verde limão */
 }
 
 footer {
@@ -73,7 +73,7 @@ footer p {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff6600;
+    background-color: #32CD32; /* Botão verde limão */
     color: #fff;
     border-radius: 5px;
     text-decoration: none;
@@ -81,7 +81,7 @@ footer p {
 }
 
 .btn:hover {
-    background-color: #ff3d00;
+    background-color: #228B22; /* Verde mais escuro no hover */
 }
 
 iframe {
