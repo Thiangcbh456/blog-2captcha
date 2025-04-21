@@ -1,0 +1,92 @@
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Fundo escuro */
+    color: #f1f1f1; /* Texto claro */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #1f1f1f; /* Cor de fundo do cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ff6600; /* Cor laranja para destaque */
+}
+
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+nav a:hover {
+    background-color: #ff6600;
+    color: #121212;
+}
+
+article {
+    background-color: #1e1e1e; /* Fundo escuro para as seções de conteúdo */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #ff6600; /* Títulos em laranja */
+}
+
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+footer p {
+    color: #888;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #ff3d00;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    margin-top: 20px;
+}
